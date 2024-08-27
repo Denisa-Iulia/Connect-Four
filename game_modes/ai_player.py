@@ -35,8 +35,6 @@ def ai_player(board, depth = 5, maximizing_player = True, alpha = -math.inf, bet
     FIRST_PLAYER_WON = win_check(board, FIRST_PLAYER)
     SECOND_PLAYER_WON = win_check(board, SECOND_PLAYER)
 
-    print(FIRST_PLAYER_WON, SECOND_PLAYER_WON)
-
     if FIRST_PLAYER_WON is True: # when minimizing player wins
         return (None, -999)
     elif SECOND_PLAYER_WON is True: # when maximizing player wins
