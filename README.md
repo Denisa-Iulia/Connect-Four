@@ -24,7 +24,7 @@ This is a Python implementation of the classic Connect Four game, featuring both
 ## How to Play
 1. Run the main game file:
    ```
-   python connect_four.py
+   python3 connect_four.py
    ```
 2. Use the mouse to select a column to drop your piece.
 3. In Player vs Player mode, players take turns.
